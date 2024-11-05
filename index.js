@@ -15,6 +15,6 @@ console.log(animalSalvaje);
 const animalesSalvajes = _.filter(animales, { tipo: 'salvaje' });
 
 // Mostrar el segundo animal salvaje
-const segundoAnimalSalvaje = animalesSalvajes[1]; // Accedemos al segundo elemento (índice 1)
+const segundoAnimalSalvaje = animalesSalvajes[1]; 
 console.log("\nSegundo animal de tipo salvaje:");
 console.log(segundoAnimalSalvaje);

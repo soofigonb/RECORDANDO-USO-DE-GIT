@@ -10,3 +10,7 @@ console.log(autosUnicos);
 const animalSalvaje = _.find(animales, { tipo: 'salvaje' });
 console.log("\nPrimer animal de tipo salvaje:");
 console.log(animalSalvaje);
+
+const animalSalvaje2 = _.find(animales, { tipo: 'salvaje' });
+console.log("\nPrimer animal de tipo salvaje:");
+console.log(animalSalvaje2);

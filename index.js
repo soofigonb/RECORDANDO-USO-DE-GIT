@@ -1,12 +1,12 @@
 const _ = require('lodash');
 const {  autos, animales } = require('./datos');
 
-// Usando uniq() para eliminar duplicados en la lista de autos
+// 1. Usando uniq() para obtener un array de elementos únicos desde la variable autos
 const autosUnicos = _.uniq(autos);
 console.log("\nLista de autos únicos:");
 console.log(autosUnicos);
 
-// Usando find() para buscar un animal específico
-const animalBuscado = _.find(animales, { nombre: 'elvis' });
-console.log("\nAnimal buscado:");
-console.log(animalBuscado);
+// 2. Usando find() para obtener el primer animal de tipo 'salvaje'
+const animalSalvaje = _.find(animales, { tipo: 'salvaje' });
+console.log("\nPrimer animal de tipo salvaje:");
+console.log(animalSalvaje);

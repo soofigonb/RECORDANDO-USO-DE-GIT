@@ -11,6 +11,10 @@ const animalSalvaje = _.find(animales, { tipo: 'salvaje' });
 console.log("\nPrimer animal de tipo salvaje:");
 console.log(animalSalvaje);
 
-const animalSalvaje2 = _.find(animales, { tipo: 'salvaje' });
-console.log("\nPrimer animal de tipo salvaje:");
-console.log(animalSalvaje2);
+// 3. Usando filter() para obtener todos los animales de tipo 'salvaje'
+const animalesSalvajes = _.filter(animales, { tipo: 'salvaje' });
+
+// Mostrar el segundo animal salvaje
+const segundoAnimalSalvaje = animalesSalvajes[1]; // Accedemos al segundo elemento (índice 1)
+console.log("\nSegundo animal de tipo salvaje:");
+console.log(segundoAnimalSalvaje);
